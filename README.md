@@ -1,2 +1,2 @@
 # jgmtdw
-Just gets the damn weather
+Just gets the weather
