@@ -10,10 +10,10 @@ def hello_world():
     return 'Hello World!'
 
 
-#@app.route('/hello')
+@app.route('/hello')
 #@app.route('/hello/<name>')
-#def hello(name="Javier"):
-#    return render_template('index.html', name=name)
+def hello():
+    return render_template('index.html')
 
 
 @app.route('/getWeather')
